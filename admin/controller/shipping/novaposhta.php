@@ -168,7 +168,7 @@ class ControllerShippingNovaPoshta extends Controller
         }
 
 
-        template = 'shipping/novaposhta.tpl';
+        $template = 'shipping/novaposhta.tpl';
         $this->children = array(
             'common/header',
             'common/footer'
